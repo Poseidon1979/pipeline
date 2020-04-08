@@ -1,0 +1,11 @@
+# Default values for cicd_sample.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+cicd:
+  app:
+    label: app=cicd
+    image: ccr.ccs.tencentyun.com/yanghaitao/cicdsample
+  service:
+    name: cicdservice
+
